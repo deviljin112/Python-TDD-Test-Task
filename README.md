@@ -44,3 +44,20 @@ Example for `assertTrue`
 def divisible(self, val_1, val_2):
     return val_1 % val_2 == 0
 ```
+
+## How we are testing
+
+In order to test our code, we need to open our terminal with our project focused. Then we need to run the `python -m pytest` command and await the results. If there was an error it would mean that there is an issue in our code. We can also add the `-v` flag at the end of the command to see a more in-depth breakdown of the testing process. Each function that worked or didnt, and percentage progress of the testing process.
+</br>
+Example output:
+
+```bash
+================================================= test session starts =================================================
+platform win32 -- Python 3.9.0, pytest-6.1.2, py-1.9.0, pluggy-0.13.1
+rootdir: .\Python-Test-Driven-Development
+collected 4 items
+
+test_simple_calc.py ....                                                                                         [100%]
+
+================================================== 4 passed in 0.04s ==================================================
+```
