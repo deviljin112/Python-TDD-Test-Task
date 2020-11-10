@@ -1,5 +1,12 @@
 # Python-TDD-Test-Task
 
+## Requirements
+
+You will need to import the following modules into your project:
+
+- `import unittest`
+- `import pytest`
+
 ## Initialising the Test Code
 
 First we need to create a class that will act as the testing environment. To do that we need to inherit from the `unittest.TestCase`. Then we need to make a class variable that will create an instance of the class we will be testing.
