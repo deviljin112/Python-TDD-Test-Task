@@ -26,3 +26,21 @@ Another use of assert can be checking for boolean values. To do this we will be 
 def test_divisible(self):
     self.assertTrue(self.tested_class.divisible(4, 2))
 ```
+
+## What we testing
+
+The functions in the `Calculator` class need to have a return value for the tests to complete. Depending on the assert function you use you will need to return different values.
+
+Example for `assertEqual`
+
+```python
+def add(self, val_1, val_2):
+    return val_1 + val_2
+```
+
+Example for `assertTrue`
+
+```python
+def divisible(self, val_1, val_2):
+    return val_1 % val_2 == 0
+```
