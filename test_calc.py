@@ -1,5 +1,8 @@
+# Import the test modules
 import unittest
 import pytest
+
+# Import the class we will be testing
 from calc import Calculator
 
 # Test class, extends unit testing
